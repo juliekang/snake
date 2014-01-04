@@ -1,0 +1,31 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="snake.js"></script>
+  <script src="board.js"></script>
+  <script src="snakeUI.js"></script>
+  <link rel="stylesheet" type="text/css" href="snake.css">
+</head>
+
+<body>
+  <h1>Snake</h1>
+  <label for="name">Enter your name here: </label>
+  <input type="text" id="name">
+  <p>
+    Press 'P' to pause/play, 'R' to restart
+  </p>
+
+  <div id="scoreboard"></div>
+  <div id="wrapper"></div>
+  <div id="leaderboard">
+    <h3 id="leaderTag">Leaderboard</h3>
+    <ol id="leaders"></ol>
+    <button id="clearLeaders">Clear Scores</button>
+  </div>
+
+</body>
+
+</html>

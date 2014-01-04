@@ -1,0 +1,41 @@
+#wrapper {
+  border: thin solid black;
+  height: 600px;
+  width: 600px;
+  float: left;
+}
+
+.tile {
+  border: thin solid black;
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.snake {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
+
+#leaderboard{
+  width: 300px;
+  height: 600px;
+  border: thick dotted black;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+
+#leaderTag {
+  text-align: center;
+}
+
+#clearLeaders {
+  position: absolute;
+  bottom: 0;
+}
