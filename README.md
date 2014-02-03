@@ -5,11 +5,13 @@ With Eric Robinson (@esrobinson) for App Academy (@appacademy).
 
 The classic Nokia phone game, made epic with JavaScript and jQuery.   
 
-Includes leaderboard.
+Includes leaderboard.   
+
+![Imgur](http://i.imgur.com/LwDTv7d.png)
 
 ### To run locally:
 
-Fire up your favorite web browser and go to File/Open.  Locate and select the 'snake.html' file, and you should be good to go!
+Fire up your favorite web browser and go to File/Open.  Locate the snake directory and select the 'snake.html' file, and you should be good to go!
 
 ### Gameplay
 
