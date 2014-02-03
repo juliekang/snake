@@ -42,7 +42,7 @@
   };
 
   Snake.prototype.eatApple = function() {
-    this.length += 4;
+    this.length += 2;
   };
 
   Snake.prototype.head = function(){
