@@ -1,3 +1,8 @@
+// Game logic and interaction with human player, as well as all
+// rendering functions live here.  All leaderboard functionality
+// also lives here, could possibly benefit from being placed into its
+// own file.
+
 (function(root) {
   var Game = root.Game = (root.Game || {} );
 
@@ -48,6 +53,7 @@
     }
   };
 
+  //Apples should show up at random times and locations.
   View.APPLE_FREQUENCY = 0.1;
 
   View.prototype.step = function () {

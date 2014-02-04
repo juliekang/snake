@@ -1,3 +1,5 @@
+// Snake API, if you will.
+
 (function(root) {
   var Game = root.Game = (root.Game || {} );
 

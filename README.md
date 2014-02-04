@@ -3,7 +3,7 @@ snake
 
 With Eric Robinson (@esrobinson) for App Academy (@appacademy).   
 
-The classic Nokia phone game, made epic with JavaScript and jQuery.   
+The classic Nokia phone game, made epic with JavaScript and jQuery. Stores high scores in the browser using HTML5’s localStorage.
 
 Includes leaderboard.   
 

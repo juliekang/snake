@@ -1,3 +1,5 @@
+// Anything that involves referring specific attributes or positions in the board
+// is placed here.  Score is also kept here.
 
 (function(root){
   // root.Game = require("./snake.js");
@@ -10,6 +12,9 @@
   }
 
   Board.SIZE = 20;
+
+  // Before we made the css/html front end, we tested our board/snake
+  // logic in the command line.
 
   // Board.prototype.render = function(){
   //   var output = "";
@@ -46,6 +51,9 @@
     return false;
   };
 
+  // The board doesn't actually eat apples, of course, but  
+  // since the board keeps track of apple locations and the score,
+  // it should handle what to do when the snake does eat an apple.
   Board.prototype.maybeEatApple = function(){
     if(this.hasApple(this.snake.head())){
       this.snake.eatApple();
