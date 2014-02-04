@@ -9,6 +9,10 @@ Includes leaderboard.
 
 ![Imgur](http://i.imgur.com/LwDTv7d.png)
 
+### To play online:
+
+[http://www.juliekang.net/snake/snake.html](http://www.juliekang.net/snake/snake.html)
+
 ### To run locally:
 
 Fire up your favorite web browser and go to File/Open.  Locate the snake directory and select the 'snake.html' file, and you should be good to go!
